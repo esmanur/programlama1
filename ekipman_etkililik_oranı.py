@@ -1,0 +1,12 @@
+x=int(input('planlanmış üretim süresini giriniz:'))
+y=int(input('plansız duruşu giriniz:'))
+z=int(input('standart çevrim zamanını giriniz:'))
+a=int(input('üretim miktarını giriniz:'))
+b=int(input('sağlam ürün miktarını giriniz:'))
+c=int(input('toplam üretim miktarını giriniz:'))
+
+kullanilabilirlik=((x-y)/x)
+performans=((z*a)/(x-y))
+kalite=(b/c)
+oee=((kullanilabilirlik*performans*kalite)*100)
+print(oee)
